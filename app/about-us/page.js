@@ -871,7 +871,7 @@ export default function AboutUs() {
                       <input
                         type="text"
                         className="form-control"
-                        defaultValue="hi.themesflat@mail.com"
+                        defaultValue=""
                       />
                     </div>
                     <div className="box">
