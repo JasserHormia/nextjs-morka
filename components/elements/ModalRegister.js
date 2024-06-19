@@ -11,7 +11,7 @@ export default function ModalRegister({ isRegister, handleRegister, handleLogin 
 							<form action="#">
 								<fieldset className="box-fieldset">
 									<label htmlFor="name">Username or email address<span>*</span>:</label>
-									<input type="text" className="form-contact style-1" defaultValue="themesflat@gmail.com|" />
+									<input type="text" className="form-contact style-1" defaultValue="" />
 								</fieldset>
 								<fieldset className="box-fieldset">
 									<label htmlFor="pass">Password<span>*</span>:</label>
