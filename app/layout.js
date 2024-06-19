@@ -26,7 +26,7 @@ export const metadata = {
 	title: 'Morka Real Estate',
 	description: 'Developed By Jasser Haramia',
 	icons: {
-		icon: ['/images/logo/favicon.png']
+		icon: ['/images/logo/favicmorka.webp']
 	}
 }
 
