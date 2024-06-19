@@ -12,7 +12,7 @@ export default function ModalLogin({ isLogin, handleLogin, isRegister, handleReg
 							<form action="#">
 								<fieldset className="box-fieldset">
 									<label htmlFor="name">Your Names<span>*</span>:</label>
-									<input type="text" className="form-contact style-1" defaultValue="themesflat@gmail.com|" />
+									<input type="text" className="form-contact style-1" defaultValue="" />
 								</fieldset>
 								<fieldset className="box-fieldset">
 									<label htmlFor="pass">Password<span>*</span>:</label>
