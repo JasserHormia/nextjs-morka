@@ -16,9 +16,9 @@ export default function Footer1() {
 								<span>Follow Us:</span>
 								<ul className="list-social d-flex align-items-center">
 									<li><Link target="_blank" href="https://www.facebook.com/profile.php?id=61558802877905" className="box-icon w-40 social"><i className="icon icon-facebook" /></Link></li>
-									{/* <li><Link href="#" className="box-icon w-40 social"><i className="icon icon-linkedin" /></Link></li> */}
+									<li><Link target="_blank" href="https://www.linkedin.com/company/morka-real-estate/" className="box-icon w-40 social"><i className="icon icon-linkedin" /></Link></li>
 									{/* <li><Link href="#" className="box-icon w-40 social"><i className="icon icon-twitter" /></Link></li> */}
-									{/* <li><Link href="#" className="box-icon w-40 social"><i className="icon icon-pinterest" /></Link></li> */}
+									{/* <li><Link href="#" className="box-icon w-40 social"><i className="icon icon-location" /></Link></li> */}
 									<li  ><Link target="_blank" href="https://www.instagram.com/morka.realestate/" className="box-icon w-40 social"><i className="icon icon-instagram"  /></Link></li>
 									{/* <li><Link href="#" className="box-icon w-40 social"><i className="icon icon-youtube" /></Link></li> */}
 								</ul>
