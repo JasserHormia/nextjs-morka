@@ -18,7 +18,7 @@ export default function Header3({ scroll, isSidebar, handleSidebar, isMobileMenu
 							<div className="inner-container d-flex justify-content-between align-items-center">
 								{/* Logo Box */}
 								<div className="logo-box d-flex">
-									<div className="logo"><Link href="/"><img src="/images/logo/logo@2x.png" alt="logo" width={174} height={44} /></Link></div>
+									<div className="logo"><Link href="/"><img src="/images/logo/logo.svg" alt="logo" width={174} height={44} /></Link></div>
 									<div className="button-show-hide" onClick={handleSidebar}>
 										<span className="icon icon-categories" />
 									</div>
@@ -37,7 +37,7 @@ export default function Header3({ scroll, isSidebar, handleSidebar, isMobileMenu
 										<div className="avatar avt-40 round">
 											<img src="/images/avatar/avt-2.jpg" alt="avt" />
 										</div>
-										<p className="name">Tony Nguyen<span className="icon icon-arr-down" /></p>
+										<p className="name">Jasser Jasser<span className="icon icon-arr-down" /></p>
 									</a>
 									<div className={`dropdown-menu  ${isToggled ? "show" : ""}`} style={{ position: 'absolute', inset: '0px auto auto 0px', margin: 0, transform: 'translate(1494px, 62px)' }}>
 										<Link className="dropdown-item" href="/my-favorites">My Properties</Link>
@@ -73,7 +73,7 @@ export default function Header3({ scroll, isSidebar, handleSidebar, isMobileMenu
 							<div className="mobi-icon-box">
 								<div className="box d-flex align-items-center">
 									<span className="icon icon-phone2" />
-									<div>(+971)44324415</div>
+									<div>+971 44324415</div>
 								</div>
 								<div className="box d-flex align-items-center">
 									<span className="icon icon-mail" />

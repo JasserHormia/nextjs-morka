@@ -84,11 +84,12 @@ export default function BlogDetail() {
 											<div className="d-flex flex-wrap align-items-center gap-16">
 												<span className="text-black">Share:</span>
 												<ul className="d-flex flex-wrap gap-12">
-													<li><Link href="#" className="box-icon w-40 social square"><i className="icon icon-facebook" /></Link></li>
-													<li><Link href="#" className="box-icon w-40 social square"><i className="icon icon-linkedin" /></Link></li>
-													<li><Link href="#" className="box-icon w-40 social square"><i className="icon icon-twitter" /></Link></li>
-													<li><Link href="#" className="box-icon w-40 social square"><i className="icon icon-pinterest" /></Link></li>
-													<li><Link href="#" className="box-icon w-40 social square"><i className="icon icon-youtube" /></Link></li>
+													<li><Link target="_blank" href="https://www.facebook.com/profile.php?id=61558802877905" className="box-icon w-40 social square"><i className="icon icon-facebook" /></Link></li>
+													<li><Link target="_blank" href="https://www.linkedin.com/company/morka-real-estate/" className="box-icon w-40 social square"><i className="icon icon-linkedin" /></Link></li>
+													<li><Link target="_blank" href="https://www.instagram.com/morka.realestate/" className="box-icon w-40 social square"><i className="icon icon-instagram" /></Link></li>
+													{/* <li><Link href="#" className="box-icon w-40 social square"><i className="icon icon-twitter" /></Link></li> */}
+													{/* <li><Link href="#" className="box-icon w-40 social square"><i className="icon icon-pinterest" /></Link></li> */}
+													{/* <li><Link href="#" className="box-icon w-40 social square"><i className="icon icon-youtube" /></Link></li> */}
 												</ul>
 											</div>
 										</div>

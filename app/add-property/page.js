@@ -37,7 +37,7 @@ export default function AddProperty() {
 								<label htmlFor="title">
 									Title:<span>*</span>
 								</label>
-								<input type="text" className="form-control style-1" defaultValue="Jony Dane |" />
+								<input type="text" className="form-control style-1" defaultValue="JasserJasser" />
 							</fieldset>
 							<fieldset className="box box-fieldset">
 								<label htmlFor="desc">Description:</label>
@@ -62,9 +62,11 @@ export default function AddProperty() {
 									</label>
 									<select className="nice-select">
 
-										<option data-value={1} className="option selected">United States</option>
+										<option data-value={1} className="option selected">United Arab Emirates</option>
 										<option data-value={2} className="option">United Kingdom</option>
 										<option data-value={3} className="option">Russia</option>
+										<option data-value={3} className="option">United States</option>
+										<option data-value={3} className="option">Turkey</option>
 
 									</select>
 								</fieldset>
