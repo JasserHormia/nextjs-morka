@@ -30,8 +30,8 @@ function RangeSlider({ title }) {
 
 				<div className="group-range-title mt-2">
 					<label className="d-flex justify-content-between mb-0">
-						<span>{value[0]}$ </span>
-						<span>{value[1]}$</span>
+						<span>{value[0]}AED </span>
+						<span>{value[1]}AED</span>
 					</label>
 				</div>
 			</div>

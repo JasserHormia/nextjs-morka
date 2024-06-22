@@ -4,7 +4,6 @@ import Benefit1 from "@/components/sections/Benefit1"
 import LatestNew1 from "@/components/sections/LatestNew1"
 import Location1 from "@/components/sections/Location1"
 import Partner from "@/components/sections/Partner"
-import Property1 from "@/components/sections/Property1"
 import Recommended1 from "@/components/sections/Recommended1"
 import Service1 from "@/components/sections/Service1"
 import Slider1 from "@/components/sections/Slider1"
@@ -20,7 +19,6 @@ export default function Home() {
 				<Location1 />
 				<Service1 />
 				<Benefit1 />
-				<Property1 />
 				<Testimonial1 />
 				<Agents1 />
 				<LatestNew1 />
