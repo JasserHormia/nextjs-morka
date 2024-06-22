@@ -23,7 +23,7 @@ export default function Pricing() {
 								<div className="box col-lg-3 col-md-6">
 									<div className="box-pricing">
 										<div className="price d-flex align-items-end">
-											<h4>$20</h4>
+											<h4>48 AED</h4>
 											<span className="body-2 text-variant-1">/month</span>
 										</div>
 										<div className="box-title-price">
@@ -33,15 +33,15 @@ export default function Pricing() {
 										<ul className="list-price">
 											<li className="item">
 												<span className="check-icon icon-tick" />
-												Transportation for you
+												Listing Properties
 											</li>
 											<li className="item">
 												<span className="check-icon icon-tick" />
-												A hotel or homestay.
+												One 3D Designs for your Property
 											</li>
 											<li className="item">
 												<span className="check-icon icon-tick" />
-												Free meals and drinks.
+												1 Featured property per month
 											</li>
 											<li className="item">
 												<span className="check-icon icon-tick disable" />
@@ -58,7 +58,7 @@ export default function Pricing() {
 								<div className="box col-lg-3 col-md-6">
 									<div className="box-pricing">
 										<div className="price d-flex align-items-end">
-											<h4>$20</h4>
+											<h4>58 AED</h4>
 											<span className="body-2 text-variant-1">/month</span>
 										</div>
 										<div className="box-title-price">
@@ -68,15 +68,15 @@ export default function Pricing() {
 										<ul className="list-price">
 											<li className="item">
 												<span className="check-icon icon-tick" />
-												Transportation for you
+												Listing Properties
 											</li>
 											<li className="item">
 												<span className="check-icon icon-tick" />
-												A hotel or homestay.
+												Two 3D Designs for your Property
 											</li>
 											<li className="item">
 												<span className="check-icon icon-tick" />
-												Free meals and drinks.
+												5 Featured property per month
 											</li>
 											<li className="item">
 												<span className="check-icon icon-tick disable" />
@@ -94,7 +94,7 @@ export default function Pricing() {
 									<div className="box-pricing active">
 										<span className="tag">MOST POPULAR</span>
 										<div className="price d-flex align-items-end">
-											<h4>$20</h4>
+											<h4>78 AED</h4>
 											<span className="body-2 text-variant-1">/month</span>
 										</div>
 										<div className="box-title-price">
@@ -104,15 +104,15 @@ export default function Pricing() {
 										<ul className="list-price">
 											<li className="item">
 												<span className="check-icon icon-tick" />
-												Transportation for you
+												Listing Properties
 											</li>
 											<li className="item">
 												<span className="check-icon icon-tick" />
-												A hotel or homestay.
+												Five 3D Designs for your Property
 											</li>
 											<li className="item">
 												<span className="check-icon icon-tick" />
-												Free meals and drinks.
+												10 Featured property per month
 											</li>
 											<li className="item">
 												<span className="check-icon icon-tick disable" />
@@ -120,7 +120,7 @@ export default function Pricing() {
 											</li>
 											<li className="item">
 												<span className="check-icon icon-tick disable" />
-												Unlimited users
+												5 Users
 											</li>
 										</ul>
 										<Link href="#" className="tf-btn">Choose The Package</Link>
@@ -129,7 +129,7 @@ export default function Pricing() {
 								<div className="box col-lg-3 col-md-6">
 									<div className="box-pricing">
 										<div className="price d-flex align-items-end">
-											<h4>$20</h4>
+											<h4>128 AED</h4>
 											<span className="body-2 text-variant-1">/month</span>
 										</div>
 										<div className="box-title-price">
@@ -139,22 +139,22 @@ export default function Pricing() {
 										<ul className="list-price">
 											<li className="item">
 												<span className="check-icon icon-tick" />
-												Transportation for you
+												Listing Properties
 											</li>
 											<li className="item">
 												<span className="check-icon icon-tick" />
-												A hotel or homestay.
+												Unlimited 3D Designs for your Property
 											</li>
 											<li className="item">
 												<span className="check-icon icon-tick" />
-												Free meals and drinks.
+												Unlimited Featured property per month
 											</li>
 											<li className="item">
-												<span className="check-icon icon-tick disable" />
+												<span className="check-icon icon-tick enable" />
 												24/7 Support
 											</li>
 											<li className="item">
-												<span className="check-icon icon-tick disable" />
+												<span className="check-icon icon-tick enable" />
 												Unlimited users
 											</li>
 										</ul>

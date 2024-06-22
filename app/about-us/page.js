@@ -537,7 +537,7 @@ export default function AboutUs() {
                       <input
                         type="text"
                         className="form-control"
-                        defaultValue=""
+                        placeholder="email@email.com"
                       />
                     </div>
                     <div className="box">
@@ -549,7 +549,7 @@ export default function AboutUs() {
                         className="form-control"
                         cols={30}
                         rows={10}
-                        placeholder="Write comment"
+                        placeholder="Write a Message!"
                         defaultValue={""}
                       />
                     </div>
@@ -575,7 +575,7 @@ export default function AboutUs() {
                   <div className="box-agent style-1 hover-img">
                     <div className="box-img img-style">
                       <img
-                        src="/images/agents/agent-lg-1.jpg"
+                        src="/images/avatar/Ali.webp"
                         alt="image-agent"
                       />
                       <ul className="agent-social">
@@ -595,8 +595,8 @@ export default function AboutUs() {
                     </div>
                     <Link href="#" className="content">
                       <div className="info">
-                        <h6 className="link">Jack Halow</h6>
-                        <p className="mt-4 text-variant-1">CEO &amp; Founder</p>
+                        <h6 className="link">Ali Hachem</h6>
+                        <p className="mt-4 text-variant-1">Real Estate Agent</p>
                       </div>
                       <span className="icon-phone" />
                     </Link>
@@ -606,7 +606,7 @@ export default function AboutUs() {
                   <div className="box-agent style-1 hover-img">
                     <div className="box-img img-style">
                       <img
-                        src="/images/agents/agent-lg-2.jpg"
+                        src="/images/avatar/Mooz.webp"
                         alt="image-agent"
                       />
                       <ul className="agent-social">
@@ -626,8 +626,8 @@ export default function AboutUs() {
                     </div>
                     <Link href="#" className="content">
                       <div className="info">
-                        <h6 className="link">John Smith</h6>
-                        <p className="mt-4 text-variant-1">Property Manager</p>
+                        <h6 className="link">Moez Khaled</h6>
+                        <p className="mt-4 text-variant-1">Property Consultant</p>
                       </div>
                       <span className="icon-phone" />
                     </Link>
@@ -637,7 +637,7 @@ export default function AboutUs() {
                   <div className="box-agent style-1 hover-img">
                     <div className="box-img img-style">
                       <img
-                        src="/images/agents/agent-lg-3.jpg"
+                        src="/images/avatar/Alex.webp"
                         alt="image-agent"
                       />
                       <ul className="agent-social">
@@ -657,9 +657,9 @@ export default function AboutUs() {
                     </div>
                     <Link href="#" className="content">
                       <div className="info">
-                        <h6 className="link">Chris Patt</h6>
+                        <h6 className="link">Alex Nikitin</h6>
                         <p className="mt-4 text-variant-1">
-                          Administrative Staff
+                          Real Estate Agent
                         </p>
                       </div>
                       <span className="icon-phone" />

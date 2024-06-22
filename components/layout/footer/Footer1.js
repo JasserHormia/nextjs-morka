@@ -15,12 +15,12 @@ export default function Footer1() {
 							<div className="wd-social">
 								<span>Follow Us:</span>
 								<ul className="list-social d-flex align-items-center">
-									<li><Link href="#" className="box-icon w-40 social"><i className="icon icon-facebook" /></Link></li>
-									<li><Link href="#" className="box-icon w-40 social"><i className="icon icon-linkedin" /></Link></li>
-									<li><Link href="#" className="box-icon w-40 social"><i className="icon icon-twitter" /></Link></li>
-									<li><Link href="#" className="box-icon w-40 social"><i className="icon icon-pinterest" /></Link></li>
-									<li><Link href="#" className="box-icon w-40 social"><i className="icon icon-instagram" /></Link></li>
-									<li><Link href="#" className="box-icon w-40 social"><i className="icon icon-youtube" /></Link></li>
+									<li><Link target="_blank" href="https://www.facebook.com/profile.php?id=61558802877905" className="box-icon w-40 social"><i className="icon icon-facebook" /></Link></li>
+									{/* <li><Link href="#" className="box-icon w-40 social"><i className="icon icon-linkedin" /></Link></li> */}
+									{/* <li><Link href="#" className="box-icon w-40 social"><i className="icon icon-twitter" /></Link></li> */}
+									{/* <li><Link href="#" className="box-icon w-40 social"><i className="icon icon-pinterest" /></Link></li> */}
+									<li  ><Link target="_blank" href="https://www.instagram.com/morka.realestate/" className="box-icon w-40 social"><i className="icon icon-instagram"  /></Link></li>
+									{/* <li><Link href="#" className="box-icon w-40 social"><i className="icon icon-youtube" /></Link></li> */}
 								</ul>
 							</div>
 						</div>
@@ -39,7 +39,7 @@ export default function Footer1() {
 										</li>
 										<li className="mt-12 d-flex align-items-center gap-8">
 											<i className="icon icon-phone2 fs-20 text-variant-2" />
-											<Link href="/tel:1-333-345-6868" className="text-white caption-1">(+971) 44324415</Link>
+											<Link href="/tel:1-333-345-6868" className="text-white caption-1">+971 44324415</Link>
 										</li>
 										<li className="mt-12 d-flex align-items-center gap-8">
 											<i className="icon icon-mail fs-20 text-variant-2" />
