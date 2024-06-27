@@ -8,7 +8,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
 				<div className="container">
 					<ul className="breadcrumb">
 						<li><Link href="/">Home</Link></li>
-						<li>/ Pages</li>
+						<li></li>
 						<li>/ {breadcrumbTitle}</li>
 					</ul>
 					<h2 className="text-center">{breadcrumbTitle}</h2>
