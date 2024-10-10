@@ -395,11 +395,11 @@ export default function AboutUs() {
                 <SwiperSlide>
 								<div className="partner-item">
 									<img src="/images/slider/slider-2-1.jpg" alt="images" width={150} height={35} viewBox="0 0 182 35" fill="none" />
-						                  <defs>
-											<clipPath id="clip0_1_17747">
+						                  <div>
+											<clippath id="clip0_1_17747">
 												<rect width="181.333" height={34} fill="white" transform="translate(0 0.5)" />
-											</clipPath>
-										</defs>
+											</clippath>
+										</div>
 									
 								</div>
 							</SwiperSlide>
@@ -407,11 +407,11 @@ export default function AboutUs() {
 								<div className="partner-item">
 									<img src="/images/slider/slider-2-2.jpg" alt="images" width={150} height={45} viewBox="0 0 184 45" fill="none" />
 										
-										<defs>
-											<clipPath id="clip0_1_17753">
+										<div>
+											<clippath id="clip0_1_17753">
 												<rect width="183.293" height={45} fill="white" transform="translate(0.5)" />
-											</clipPath>
-										</defs>
+											</clippath>
+										</div>
 									
 								</div>
 							</SwiperSlide>
@@ -437,11 +437,11 @@ export default function AboutUs() {
 								<div className="partner-item">
 									<img src="/images/slider/slider-2-5.jpg" alt="images" width={150} height={30} viewBox="0 0 182 35" fill="none" />
 										
-										<defs>
-											<clipPath id="clip0_1_17747">
+										<div>
+											<clippath id="clip0_1_17747">
 												<rect width="181.333" height={30} fill="white" transform="translate(0 0.5)" />
-											</clipPath>
-										</defs>
+											</clippath>
+										</div>
 								
 								</div>
 							</SwiperSlide>
@@ -449,11 +449,11 @@ export default function AboutUs() {
 								<div className="partner-item">
 									<img src="/images/slider/slider-2-6.jpg" alt="images" width={150} height={30} viewBox="0 0 184 45" fill="none" />
 										
-										<defs>
-											<clipPath id="clip0_1_17753">
+										<div>
+											<clippath id="clip0_1_17753">
 												<rect width="183.293" height={30} fill="white" transform="translate(0.5)" />
-											</clipPath>
-										</defs>
+											</clippath>
+										</div>
 									
 								</div>
 							</SwiperSlide>
@@ -680,7 +680,7 @@ export default function AboutUs() {
                       Become Partners
                     </div>
                     <h4 className="mt-4">
-                      List your Properties on Homeya, join Us Now!
+                      List your Properties on Morka, join Us Now!
                     </h4>
                   </div>
                   <Link href="#" className="tf-btn primary size-1">

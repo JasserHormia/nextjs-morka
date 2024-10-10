@@ -46,9 +46,9 @@ export default function Partner() {
 								<div className="partner-item">
 									<img src="/images/slider/slider-2-1.jpg" alt="images" width={150} height={35} viewBox="0 0 182 35" fill="none" />
 						                  <defs>
-											<clipPath id="clip0_1_17747">
+											<clippath id="clip0_1_17747">
 												<rect width="181.333" height={34} fill="white" transform="translate(0 0.5)" />
-											</clipPath>
+											</clippath>
 										</defs>
 									
 								</div>
@@ -58,9 +58,9 @@ export default function Partner() {
 									<img src="/images/slider/slider-2-2.jpg" alt="images" width={150} height={45} viewBox="0 0 184 45" fill="none" />
 										
 										<defs>
-											<clipPath id="clip0_1_17753">
+											<clippath id="clip0_1_17753">
 												<rect width="183.293" height={45} fill="white" transform="translate(0.5)" />
-											</clipPath>
+											</clippath>
 										</defs>
 									
 								</div>
@@ -88,9 +88,9 @@ export default function Partner() {
 									<img src="/images/slider/slider-2-5.jpg" alt="images" width={150} height={30} viewBox="0 0 182 35" fill="none" />
 										
 										<defs>
-											<clipPath id="clip0_1_17747">
+											<clippath id="clip0_1_17747">
 												<rect width="181.333" height={30} fill="white" transform="translate(0 0.5)" />
-											</clipPath>
+											</clippath>
 										</defs>
 								
 								</div>
@@ -100,9 +100,9 @@ export default function Partner() {
 									<img src="/images/slider/slider-2-6.jpg" alt="images" width={150} height={30} viewBox="0 0 184 45" fill="none" />
 										
 										<defs>
-											<clipPath id="clip0_1_17753">
+											<clippath id="clip0_1_17753">
 												<rect width="183.293" height={30} fill="white" transform="translate(0.5)" />
-											</clipPath>
+											</clippath>
 										</defs>
 									
 								</div>

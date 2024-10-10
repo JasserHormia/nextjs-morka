@@ -1,8 +1,11 @@
 import Link from "next/link"
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
+import { SignInButton, UserButton } from "@clerk/nextjs"
 
-export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isLogin, handleLogin, hcls, handleRegister }) {
+
+export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isLogin, handleLogin, hcls, handleRegister , isSignedIn }) {
+
 	return (
 		<>
 
@@ -35,8 +38,14 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isLogi
 								</div>
 								<div className="header-account">
 									
-									<div className="flat-bt-top">
-										<Link className="tf-btn primary" href="/add-property">Submit Property</Link>
+									<div className="flat-bt-top marginLeft 40">
+										{/* <Link className="tf-btn primary" href="/login">Login/Register</Link>
+										{
+										isSignedIn? <UserButton/> 
+										: 
+										<SignInButton></SignInButton>
+									}
+										 */}
 									</div>
 								</div>
 								<div className="mobile-nav-toggler mobile-button" onClick={handleMobileMenu}><span /></div>
@@ -58,9 +67,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isLogi
 											<li><a onClick={handleRegister}>Register</a></li>
 							</div>
 							<MobileMenu />
-							<div className="button-mobi-sell">
+							{/* <div className="button-mobi-sell">
 								<Link className="tf-btn primary" href="/add-property">Submit Property</Link>
-							</div>
+							</div> */}
 							<div className="mobi-icon-box">
 								<div className="box d-flex align-items-center">
 									<span className="icon icon-phone2" />

@@ -903,6 +903,7 @@ label {
 }
 
 .main-header .header-lower .nav-outer {
+  margin-right: 190px !important;
   position: relative;
 }
 
@@ -1419,6 +1420,11 @@ label {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.signintest{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .main-header .main-menu .navbar-collapse > ul li.dropdown2 .dropdown2-btn {
   position: absolute;
@@ -1460,6 +1466,7 @@ label {
   box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
   padding: 12px 20px;
 }
+
 .mobile-menu .nav-logo img {
   max-width: 200px;
 }

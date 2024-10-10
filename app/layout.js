@@ -7,6 +7,7 @@ import "/public/css/animate.css"
 import "/public/css/styles.css"
 
 import { DM_Sans, Josefin_Sans } from 'next/font/google'
+import { ClerkProvider } from "@clerk/nextjs"
 
 const dm = DM_Sans({
 	weight: ['300', '400', '500', '600', '700'],
@@ -32,8 +33,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
+		<ClerkProvider>
 		<html lang="en">
 			<body className={`${dm.variable} ${josefin.variable} body`}>{children}</body>
 		</html>
+		</ClerkProvider>
 	)
 }

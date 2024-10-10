@@ -3,10 +3,15 @@ import Link from "next/link"
 import { useState } from "react"
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
+import { SignInButton, UserButton } from "@clerk/nextjs"
 
 export default function Header3({ scroll, isSidebar, handleSidebar, isMobileMenu, handleMobileMenu }) {
+	// const {user , isSignedIn}=useUser();
 	const [isToggled, setToggled] = useState(false)
 	const handleToggle = () => setToggled(!isToggled)
+
+
+    console.log(btoa("FjhtK.hBJ8cKhU1A9Z6wTOEx2EuKGMEXk7pOpVTP"))
 	return (
 		<>
 
@@ -33,12 +38,13 @@ export default function Header3({ scroll, isSidebar, handleSidebar, isMobileMenu
 									{/* Main Menu End*/}
 								</div>
 								<div className="header-account">
-									<a onClick={handleToggle} className={`box-avatar dropdown-toggle ${isToggled ? "show" : ""}`}>
-										<div className="avatar avt-40 round">
-											<img src="/images/avatar/avt-2.jpg" alt="avt" />
-										</div>
+									{/* {
+										isSignedIn? <UserButton/> 
+										: 
+										<SignInButton></SignInButton>
+									} */}
 										<p className="name">Jasser Jasser<span className="icon icon-arr-down" /></p>
-									</a>
+								
 									<div className={`dropdown-menu  ${isToggled ? "show" : ""}`} style={{ position: 'absolute', inset: '0px auto auto 0px', margin: 0, transform: 'translate(1494px, 62px)' }}>
 										<Link className="dropdown-item" href="/my-favorites">My Properties</Link>
 										<Link className="dropdown-item" href="/my-invoices">My Invoices</Link>

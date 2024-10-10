@@ -1,7 +1,7 @@
 import L from 'leaflet';
 import "leaflet/dist/leaflet.css";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-// import "react-leaflet-markercluster/dist/styles.min.css";
+import "react-leaflet-markercluster/dist/styles.min.css";
 
 const customMsrker = L.icon({
     iconUrl: "https://i.ibb.co/sJrMTdz/favicon-32x32.png",
@@ -20,13 +20,13 @@ export default function MapCluster({topmap}) {
             >
                 <TileLayer url="https://{s}.tile.osm.org/{z}/{x}/{y}.png" />
 
-                {/* <MarkerClusterGroup> */}
+                <MarkerClusterGroup>
                 <Marker position={[49.8397, 24.0297]} icon={customMsrker}>
                     <Popup>
                         <div className="map-box">
 							<div className="map-listing-item">
 								<div className="inner-box">
-									{/* <div className="infoBox-close"><i className="icon icon-close2" /></div> */}
+									<div className="infoBox-close"><i className="icon icon-close2" /></div>
 									<div className="image-box"><img src="/images/home/house-7.jpg" alt /></div>
 									<div className="content">
 										<p className="location"><span className="icon icon-mapPin" />100 km from my location</p>
@@ -47,7 +47,7 @@ export default function MapCluster({topmap}) {
                         <div className="map-box">
 							<div className="map-listing-item">
 								<div className="inner-box">
-									{/* <div className="infoBox-close"><i className="icon icon-close2" /></div> */}
+									<div className="infoBox-close"><i className="icon icon-close2" /></div>
 									<div className="image-box"><img src="/images/home/house-7.jpg" alt /></div>
 									<div className="content">
 										<p className="location"><span className="icon icon-mapPin" />100 km from my location</p>
@@ -68,7 +68,7 @@ export default function MapCluster({topmap}) {
                         <div className="map-box">
 							<div className="map-listing-item">
 								<div className="inner-box">
-									{/* <div className="infoBox-close"><i className="icon icon-close2" /></div> */}
+									<div className="infoBox-close"><i className="icon icon-close2" /></div>
 									<div className="image-box"><img src="/images/home/house-7.jpg" alt /></div>
 									<div className="content">
 										<p className="location"><span className="icon icon-mapPin" />100 km from my location</p>
@@ -84,7 +84,7 @@ export default function MapCluster({topmap}) {
 						</div>
                     </Popup>
                 </Marker>
-                {/* </MarkerClusterGroup> */}
+                </MarkerClusterGroup>
             </MapContainer>
         </>
     )
